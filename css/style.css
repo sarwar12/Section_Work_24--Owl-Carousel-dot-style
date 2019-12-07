@@ -1,0 +1,113 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Header Section Start */
+.header-area {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 9;
+}
+/*
+.logo img {
+	margin-top: 12px;
+	max-height: 50px;
+	background: yellow;
+	border-radius: 5px;
+}*/
+.logo a {
+	font-family: serif;
+	color: deepskyblue;
+	font-size: 25px;
+	margin-top: -24px;
+	display: inline-block;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.mainmenu ul li {
+	display: inline-block;
+	padding: 17px;
+	padding-right: 0;
+	font-size: 16px;
+	padding-left: 45px;
+}
+/* Header Section Stop */
+/* Slider Section Start */
+.single-slide-item {
+  background-color: #263238;
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+}
+.single-slide-item h2 {
+  color: #e3aa34;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 56px;
+}
+.single-slide-item .row {
+  /*min-height: 500px;*/
+  position: relative;
+}
+.single-slide-item img {
+	max-width: 550px;
+	max-height: 550px;
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+}
+.slide-text {
+	padding-bottom: 150px;
+	padding-top: 190px;
+}
+.borderd-btn {
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	display: inline-block;
+	border-radius: 5px;
+	color: #fff;
+	margin-top: 10px;
+}
+/* Owl Carousel code*/
+.homepage-sliders .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.homepage-sliders .owl-dots button {
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	background: lightyellow;
+	border-radius: 50%;
+	margin: 3px;
+}
+.homepage-sliders .owl-dots button.active {
+  background: darkgoldenrod;
+}
+/* Slider Section stop */

@@ -1,0 +1,9 @@
+$(document).ready(function($){
+	$(".homepage-sliders").owlCarousel({
+		items:1,
+		loop:true,
+		autoplay:false,
+		nav:false,
+		dots:true
+	});
+});
